@@ -2,3 +2,26 @@ a{
     color: #000;
     text-decoration: none;
 }
+
+.list a{
+    font-size: 20px;
+    /* bold or 700*/
+    font-weight: bold;
+    color: red;
+}
+
+.box {
+    height: 1000px;
+}
+
+.line-red{
+    border: 5px solid red
+}
+
+.line-blue{
+    border: 5px solid blue
+}
+
+.line-green{
+    border: 5px solid green
+}
