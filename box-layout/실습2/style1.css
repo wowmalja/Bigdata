@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: #000;
+  text-decoration: none; /*밑줄없애기(링크)*/
+}
+
+.global-header{
+  display: flex;
+  justify-content: space-between; /*수평 양끝 정렬*/
+  align-items: center; /*수직 가운데 정렬*/
+  padding:12px 20px;   /*padding : 상하, 좌우 여백*/
+  background-color: #333;
+}
+
+.logo img{
+  width: 60px;
+}
+
+.gnb-list{
+  display: flex;
+  /*justify-content: space-between;   메뉴 간격(박스 주고 정렬)
+  width: 240px;*/
+}
+
+.gnb-list li a{
+  color: #fff;
+  font-weight: 700;  /*폰트두껍게*/
+  padding:0 30px;   /*메뉴 간격ㄴ*/
+}
+
+.gnb-list li a:hover{    /*마우스 올렸을 때 스타일 바뀜*/
+  color: dodgerblue;
+  text-decoration: underline;
+}
+
+.back-img{
+  height: 600px;
+  background-image: url(./back.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.back-txt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  color: #fff;
+}
+
+.back-txt p, 
+.back-txt button{
+  margin-top: 20px;
+}
+
+
+.back-txt p{
+  font-size: 18px;
+}
+
+.back-txt button{
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.second-box{
+  width: 500px;
+  margin: -66px auto 0 auto; /*top right bottom left*/
+  padding: 40px 36px;   /* 박스 안쪽 여백 top,bottom/ right,left*/
+  text-align: center;
+  border-radius: 20px; /*모서리둥글게*/
+  color: #fff;
+  background-color: #000;
+}
+
+.second-box p{
+  margin-top: 24px;
+}
+
+.card-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.card-list div{
+  width: 300px;
+  margin: 0 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  border-radius: 20px;
+  padding: 50px 16px;
+}
+
+.card-list p{
+ margin-top: 20px; 
+}
+
+.global-footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+.footer-link{
+  display: flex;
+}
+
+.footer-link a {
+  padding : 0 12px;
+    color: #fff;
+}
